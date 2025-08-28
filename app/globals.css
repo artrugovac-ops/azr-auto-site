@@ -1,0 +1,16 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body { height: 100%; }
+body { @apply bg-white text-zinc-900; }
+.container-x { @apply max-w-[1200px] mx-auto; }
+.card { @apply border border-black/10 rounded-2xl bg-white; }
+.btn { @apply inline-flex items-center justify-center gap-2 rounded-xl px-4 py-2 border border-black/10; }
+.btn-primary { @apply bg-black text-white; }
+.btn-ghost { @apply bg-white; }
+.eyebrow { @apply uppercase tracking-widest text-xs text-zinc-500; }
+.h1 { @apply text-4xl md:text-5xl font-semibold tracking-tight; line-height: 1.05; }
+.chrome-text { background: linear-gradient(90deg,#f8fafc,#cbd5e1,#0a0a0a 45%,#e5e7eb 55%,#9ca3af,#f8fafc); -webkit-background-clip: text; background-clip: text; color: transparent; }
+.ribbon { @apply absolute top-3 left-3 text-xs font-semibold rounded-lg px-2 py-1 border border-zinc-300 bg-zinc-100; color:#0a0a0a;}
