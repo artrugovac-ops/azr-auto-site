@@ -22,7 +22,7 @@ export default function FinancingPage(){
           <input name="phone" placeholder="Phone" required className="px-3 py-2 rounded-lg border border-zinc-300" />
           <input name="email" placeholder="Email" type="email" required className="px-3 py-2 rounded-lg border border-zinc-300 md:col-span-2" />
           <input name="vehicle" placeholder="Vehicle of Interest (optional)" className="px-3 py-2 rounded-lg border border-zinc-300 md:col-span-2" />
-          <textarea name="notes" rows="4" placeholder="Tell us about your situation..." className="px-3 py-2 rounded-lg border border-zinc-300 md:col-span-2"></textarea>
+          <textarea name="notes" rows={4} placeholder="Tell us about your situation..." className="px-3 py-2 rounded-lg border border-zinc-300 md:col-span-2"></textarea>
           <button type="submit" className="btn btn-primary md:col-span-2">Submit Application</button>
           <p className="text-xs text-zinc-500 md:col-span-2">Submitting this form does not impact your credit.</p>
         </form>

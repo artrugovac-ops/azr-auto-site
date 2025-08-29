@@ -21,7 +21,7 @@ export default function ContactPage(){
             <input name="name" placeholder="Full Name" required className="px-3 py-2 rounded-lg border border-zinc-300" />
             <input name="phone" placeholder="Phone" required className="px-3 py-2 rounded-lg border border-zinc-300" />
             <input name="email" placeholder="Email" type="email" required className="px-3 py-2 rounded-lg border border-zinc-300" />
-            <textarea name="message" rows="4" placeholder="Message..." className="px-3 py-2 rounded-lg border border-zinc-300"></textarea>
+            <textarea name="message" rows={4} placeholder="Message..." className="px-3 py-2 rounded-lg border border-zinc-300"></textarea>
             <button type="submit" className="btn btn-primary">Send Message</button>
           </form>
         )}
