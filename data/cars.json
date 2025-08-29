@@ -1,41 +1,12 @@
 [
-  {
-    "id": "VIN1",
-    "title": "2014 Ford Interceptor Utility",
-    "price": 12990,
-    "priceDisplay": "$12,990",
-    "odometer": 128455,
-    "vin": "1FM5K8AR3EGA00000",
-    "type": "SUV",
-    "drivetrain": "AWD",
-    "transmission": "Automatic",
-    "image": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?q=80&w=1400&auto=format&fit=crop",
-    "description": "Ex-fleet, well-maintained, runs strong. Great utility and presence."
-  },
-  {
-    "id": "VIN2",
-    "title": "2013 Honda Civic LX",
-    "price": 8990,
-    "priceDisplay": "$8,990",
-    "odometer": 142100,
-    "vin": "2HGFG3B54DH000000",
-    "type": "Sedan",
-    "drivetrain": "FWD",
-    "transmission": "Automatic",
-    "image": "https://images.unsplash.com/photo-1483721310020-03333e577078?q=80&w=1400&auto=format&fit=crop",
-    "description": "Reliable daily with great MPG. Fresh inspection."
-  },
-  {
-    "id": "VIN3",
-    "title": "2009 BMW 328i",
-    "price": 7490,
-    "priceDisplay": "$7,490",
-    "odometer": 165230,
-    "vin": "WBAPH57509N000000",
-    "type": "Coupe",
-    "drivetrain": "RWD",
-    "transmission": "Automatic",
-    "image": "https://images.unsplash.com/photo-1494976388531-d1058494cdd8?q=80&w=1400&auto=format&fit=crop",
-    "description": "Sporty feel and clean interior. Drives tight."
-  }
+  {"id":"VIN1","year":2014,"make":"Ford","model":"Explorer Interceptor","title":"2014 Ford Explorer Interceptor","price":12990,"priceDisplay":"$12,990","odometer":128455,"vin":"1FM5K8AR3EG000001","type":"SUV","drivetrain":"AWD","transmission":"Automatic","image":"https://images.unsplash.com/photo-1503376780353-7e6692767b70?q=80&w=1400&auto=format&fit=crop","description":"Ex-fleet, well-maintained, strong drivetrain. Clean interior and solid road manners."},
+  {"id":"VIN2","year":2013,"make":"Honda","model":"Civic LX","title":"2013 Honda Civic LX","price":8990,"priceDisplay":"$8,990","odometer":142100,"vin":"2HGFG3B54DH000002","type":"Sedan","drivetrain":"FWD","transmission":"Automatic","image":"https://images.unsplash.com/photo-1483721310020-03333e577078?q=80&w=1400&auto=format&fit=crop","description":"Reliable daily with great MPG. Fresh inspection, ready to commute."},
+  {"id":"VIN3","year":2011,"make":"Toyota","model":"Camry LE","title":"2011 Toyota Camry LE","price":7990,"priceDisplay":"$7,990","odometer":165230,"vin":"4T1BF3EK7BU000003","type":"Sedan","drivetrain":"FWD","transmission":"Automatic","image":"https://images.unsplash.com/photo-1523986371872-9d3ba2e2f642?q=80&w=1400&auto=format&fit=crop","description":"Bulletproof 2.5L four-cylinder. Smooth and quiet, great service history."},
+  {"id":"VIN4","year":2015,"make":"Ford","model":"F-150 XLT","title":"2015 Ford F-150 XLT","price":15990,"priceDisplay":"$15,990","odometer":172340,"vin":"1FTEX1CP7FKE00004","type":"Truck","drivetrain":"RWD","transmission":"Automatic","image":"https://images.unsplash.com/photo-1616788371436-b9e0f7a7f8ee?q=80&w=1400&auto=format&fit=crop","description":"Solid work truck. Tows well, rides tight. Clean title."},
+  {"id":"VIN5","year":2014,"make":"Nissan","model":"Altima 2.5 S","title":"2014 Nissan Altima 2.5 S","price":6990,"priceDisplay":"$6,990","odometer":152400,"vin":"1N4AL3AP4EN000005","type":"Sedan","drivetrain":"FWD","transmission":"Automatic","image":"https://images.unsplash.com/photo-1495435229349-e86db7bfa013?q=80&w=1400&auto=format&fit=crop","description":"Affordable runner with cold A/C and clean interior. Great commuter."},
+  {"id":"VIN6","year":2012,"make":"BMW","model":"328i","title":"2012 BMW 328i","price":8490,"priceDisplay":"$8,490","odometer":143220,"vin":"WBA3B3C59CF000006","type":"Sedan","drivetrain":"RWD","transmission":"Automatic","image":"https://images.unsplash.com/photo-1494976388531-d1058494cdd8?q=80&w=1400&auto=format&fit=crop","description":"Sporty feel, tight steering, smooth 8-speed auto. Drives great."},
+  {"id":"VIN7","year":2010,"make":"Honda","model":"Accord EX-L","title":"2010 Honda Accord EX-L","price":6790,"priceDisplay":"$6,790","odometer":171880,"vin":"1HGCP3F88AA000007","type":"Sedan","drivetrain":"FWD","transmission":"Automatic","image":"https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?q=80&w=1400&auto=format&fit=crop","description":"Leather, sunroof, strong V6. Runs and drives as it should."},
+  {"id":"VIN8","year":2014,"make":"Chevrolet","model":"Equinox LT","title":"2014 Chevrolet Equinox LT","price":7490,"priceDisplay":"$7,490","odometer":158990,"vin":"2GNALDEKXE6000008","type":"SUV","drivetrain":"FWD","transmission":"Automatic","image":"https://images.unsplash.com/photo-1503376780353-7e6692767b70?q=80&w=1400&auto=format&fit=crop","description":"Comfortable compact SUV with good cargo space. A/C blows cold."},
+  {"id":"VIN9","year":2012,"make":"Toyota","model":"RAV4","title":"2012 Toyota RAV4","price":9990,"priceDisplay":"$9,990","odometer":139100,"vin":"2T3ZF4DV7CW000009","type":"SUV","drivetrain":"FWD","transmission":"Automatic","image":"https://images.unsplash.com/photo-1518306727298-4c17e1bf6942?q=80&w=1400&auto=format&fit=crop","description":"Toyota reliability, easy to own. Clean ride, ready for errands."},
+  {"id":"VIN10","year":2013,"make":"Hyundai","model":"Elantra GLS","title":"2013 Hyundai Elantra GLS","price":5990,"priceDisplay":"$5,990","odometer":149500,"vin":"5NPDH4AE1DH000010","type":"Sedan","drivetrain":"FWD","transmission":"Automatic","image":"https://images.unsplash.com/photo-1503376780353-7e6692767b70?q=80&w=1400&auto=format&fit=crop","description":"Budget-friendly, great on gas. Simple, dependable transportation."}
 ]
